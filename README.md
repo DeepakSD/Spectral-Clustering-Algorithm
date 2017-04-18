@@ -2,11 +2,11 @@
 
 Author: Deepak Shanmugam
 
-#Dataset Description:
+# Dataset Description:
 
 For this, we will use the spam data set provided with this problem set. The data has been divided into three pieces mush_train.data, mush_validation and mush_test.data. These data sets were generated using the UCI Spambase data set (follow the link https://archive.ics.uci.edu/ml/datasets/Spambase for information about the format of the data).
 
-#Problem Description:
+# Problem Description:
 
 The basic approach is as follows, given a collection of n points, x1,...,xn ∈ Rm, we construct a matrix of − 1 ||x −x ||2
 A ∈ Rn×n of similarities between them. Here, Aij = Aji = e 2σ2 i j is the similarity between xi andxj for some σ∈R.
